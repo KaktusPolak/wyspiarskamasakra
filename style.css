@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+body{
+  font-family: 'Dosis', sans-serif;
+  background-color: #f5f5dc;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+
+#calastrona{
+  width: 1000px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#fafad2;
+  border: 3px dotted black;
+}
+
+#logo{
+  width:300px;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+}
+#nawigacja{
+  width:700px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  border-bottom: 2px solid blue;
+  border-top: 2px solid blue;
+  padding:10px;
+}
+
+li{
+  display:inline;
+  padding:10px;
+  letter-spacing: 1px;
+}
+
+a{
+  color: black;
+    text-transform:uppercase;
+  text-decoration: none;
+}
+a:hover{
+  color:red;
+}
+
+#baner{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:600px;
+    border-radius:10px;
+
+    
+}
+
+p{
+  text-align:center;
+}
+
+#kontakt{
+  padding: 30px;
+  height:1300px;
+}
+ 
+form {
+  margin-top: 20px;
+  width: 400px;
+}
+ 
+form input,form select{
+  width:330px;
+  height: 35px;
+  font-size:20px;
+}
+ 
+textarea{
+  width: 330px;
+  font-size:20px;
+  resize: none;/*blokujemy możliwość zmiany wielkości przez użytkownika*/
+}
+ 
+label{
+  font-size: 18px;
+}
+ 
+fieldset{
+  padding:20px;
+  margin-bottom:10px;
+}
+ 
+legend{
+  font-size:30px;
+}
+ 
+#przycisk{
+  width:150px;
+  height:60px;
+  background-color: #1f1a34;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 4px;
+  letter-spacing:1px;
+  border: 2px solid #1f1a34;
+  text-transform:uppercase;
+}
+ 
+#przycisk:hover {
+  background-color: white; 
+  color: black;
+  cursor:pointer;
+}
+ 
+.dwieKolumny{
+  width: 50%;
+  float: left;
+}
+
+h1{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#news{
+  margin-left:auto;
+  margin-right:auto;
+}
