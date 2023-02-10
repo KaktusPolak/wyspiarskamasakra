@@ -1,0 +1,2 @@
+# wyspiarskamasakra 
+robię poprostu strone 
